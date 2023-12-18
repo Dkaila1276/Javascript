@@ -49,3 +49,17 @@ console.log(Object.entries(obj3)); //[ [ '5', 'e' ], [ '6', 'f' ] ]
 
 //check object has particular property.
 console.log(comObj.hasOwnProperty('age') + " , " + comObj.hasOwnProperty('age1')); //true , false
+
+
+
+//Object de-structure
+
+const UserInfo = {
+    username : "Dhurvi Patel",
+    age : 19,
+    email : "dpatel1290@gmail.com",
+    city : "Ahmedabad"
+}
+
+const {city} = UserInfo;
+console.log(city);
